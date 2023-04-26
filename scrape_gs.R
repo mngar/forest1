@@ -7,6 +7,7 @@
 scrape_gs <- function(term, pages, crawl_delay, ...) {
 #modified from Claudiu C. Papasteri's scrape_gs function
 #https://claudiu.psychlab.eu/post/automated-systematic-literature-search-with-r-google-scholar-web-scraping/
+#COPYRIGHT (2023) Claudiu C. Papasteri (MIT License)  
   gs_url_base <- "https://scholar.google.com/scholar"
 
   # set httr config outside of function and use them inside ...; e.g.:
